@@ -1,0 +1,22 @@
+﻿# Maven build output
+**/target/
+
+# Trained model and personal face datasets
+**/trained_faces/lbph_model.xml
+training_images/
+training-images/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# IDE and logs
+.vscode/
+.idea/
+*.iml
+*.log
+*.bak
+
+# Local backup directories
+backup-before-recognition-upgrade/
